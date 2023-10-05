@@ -1,9 +1,9 @@
-package construtores.exemplo.application;
+package sobrecarga.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import construtores.exemplo.entities.Product;
+import sobrecarga.entities.Product;
 
 public class Program {
 	
@@ -20,17 +20,14 @@ public class Program {
 		System.out.print("Price: ");
 		double price = scanner.nextDouble();
 		
-		System.out.print("Quantity in stock: ");
-		int quantity = scanner.nextInt();
-		
-		Product product = new Product(name, price, quantity);
+		Product product = new Product(name, price);
 		
 		System.out.println();
 		System.out.println("Product data: " + product);
 		System.out.println();
 		
 		System.out.print("Enter the number of products to be added in stock: ");
-		quantity = scanner.nextInt();
+		int quantity = scanner.nextInt();
 		
 		product.addProducts(quantity);
 		
