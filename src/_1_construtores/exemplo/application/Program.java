@@ -1,9 +1,9 @@
-package construtores.exemplo.application;
+package _1_construtores.exemplo.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import construtores.exemplo.entities.Product;
+import _1_construtores.exemplo.entities.Product;
 
 public class Program {
 	

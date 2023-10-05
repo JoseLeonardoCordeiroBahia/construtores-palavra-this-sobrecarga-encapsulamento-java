@@ -1,9 +1,9 @@
-package sobrecarga.application;
+package _3_sobrecarga.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import sobrecarga.entities.Product;
+import _3_sobrecarga.entities.Product;
 
 public class Program {
 	

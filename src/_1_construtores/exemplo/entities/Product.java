@@ -1,4 +1,4 @@
-package construtores.exemplo.entities;
+package _1_construtores.exemplo.entities;
 
 public class Product {
 	
